@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import Main from './app/Main';
 
 class WeeklyReport extends Component {
   render() {
@@ -50,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('WeeklyReport', () => WeeklyReport);
+AppRegistry.registerComponent('WeeklyReport', () => Main);
